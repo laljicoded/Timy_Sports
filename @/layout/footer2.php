@@ -22,28 +22,33 @@
                         <!--<li><a href="#">Products</a></li>-->
                         <!--<li><a href="#">Contact</a></li>-->
                         
-                         <li><a href="<?php echo $BasePath . "index.php"; ?>">Home</a></a></li>
-                            <li><a href="<?php echo $BasePath . "about.php"; ?>">About Us</a></li>
-                            <li>
-                                <div class="dropdown">
-                                    <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white;font-size: 14px;display: inline-block;"> Our Offering
-                                    </button>
-                                        <ul class="dropdown-menu " style="background-color:#242424;color:white;">
-                                         <li><a class="dropdown-item" href="<?php echo $BasePath . "events.php"; ?>">sales</a></li>
-                                         <li><a class="dropdown-item" href="<?php echo $BasePath . "events.php"; ?>">service</a></li>
-                                        </ul>
-                                       </div>
-                            </li>
-                                <div class="dropdown">
-                                    <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white; font-size: 14px; display: inline-block;"> Technology&nbsp;Paartner
-                                    </button>
-                                        <ul class="dropdown-menu " style="background-color:#242424; color:white;">
-                                         <li><a class="dropdown-item" href="<?php echo $BasePath . "solutions.php"; ?>">ALGE TIMING</a></li>
-                                         <li><a class="dropdown-item" href="<?php echo $BasePath . "events.php"; ?>">RACE RESULT</a></li>
-                                        </ul>
-                                       </div>
-                                
-                            </li>
+                         <li>
+                            <a href="<?php echo $BasePath . "index.php"; ?>">Home</a></a>
+                        </li>
+                        <li>
+                            <a href="<?php echo $BasePath . "about.php"; ?>">About Us</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white;font-size: 14px;display: inline-block;"> Our Offering
+                                </button>
+                                    <ul class="dropdown-menu " style="background-color:#242424;color:white;">
+                                        <li><a class="dropdown-item" href="<?php echo $BasePath . "events.php"; ?>">sales</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo $BasePath . "events.php"; ?>">service</a></li>
+                                    </ul>
+                                    </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white; font-size: 14px; display: inline-block;"> Technology&nbsp;Paartner
+                                </button>
+                                    <ul class="dropdown-menu " style="background-color:#242424; color:white;">
+                                        <li><a class="dropdown-item" href="<?php echo $BasePath . "solutions.php"; ?>">ALGE TIMING</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo $BasePath . "events.php"; ?>">RACE RESULT</a></li>
+                                    </ul>
+                                    </div>
+                            
+                        </li>
                             <li><a href="<?php echo $BasePath . "contact.php"; ?>">Contact Us</a></li>
                     </ul>
                 </div>

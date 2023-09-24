@@ -22,11 +22,11 @@
                         <div class="d-flex align-items-center">
                             <a href="javascript:void(0)" class="cross-btn">
                                 <img src="<?php echo $BasePath; ?>assets/img/menus.png" alt="">
-                                
+
                             </a>
                             <a href="javascript:void(0)" class="cross-btn">
-                            <span class="text-white fs-5 ms-2">Menu</span></a>
-                            
+                                <span class="text-white fs-5 ms-2">Menu</span></a>
+
                         </div>
                     </div>
                 </div>
@@ -47,21 +47,24 @@
                                 <div class="dropdown">
                                     <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white;"> OUR OFFERING
                                     </button>
-                                        <ul class="dropdown-menu " style="background-color:#242424;color:white;">
-                                         <li><a class="dropdown-item" href="<?php echo $BasePath . "events.php"; ?>">sales</a></li>
-                                         <li><a class="dropdown-item" href="<?php echo $BasePath . "events.php"; ?>">service</a></li>
-                                        </ul>
-                                       </div>
+                                    <ul class="dropdown-menu " style="background-color:#242424;color:white;">
+                                        <li><a class="dropdown-item" href="<?php echo $BasePath . "events.php"; ?>">sales</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo $BasePath . "events.php"; ?>">service</a></li>
+                                    </ul>
+                                </div>
                             </li>
+                            <li>
                                 <div class="dropdown">
                                     <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white;"> TECHNOLOGY&nbsp;PARTNER
                                     </button>
-                                        <ul class="dropdown-menu " style="background-color:#242424; color:white;">
-                                         <li><a class="dropdown-item" href="<?php echo $BasePath . "solutions.php"; ?>">ALGE TIMING</a></li>
-                                         <li><a class="dropdown-item" href="<?php echo $BasePath . "events.php"; ?>">RACE RESULT</a></li>
-                                        </ul>
-                                       </div>
-                                
+                                    <ul class="dropdown-menu " style="background-color:#242424; color:white;">
+                                        <li><a class="dropdown-item" href="<?php echo $BasePath . "solutions.php"; ?>">ALGE TIMING</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo $BasePath . "events.php"; ?>">RACE RESULT</a></li>
+                                    </ul>
+                                </div>
+
+
+                            </li>
                             </li>
                             <li><a href="<?php echo $BasePath . "contact.php"; ?>">Contact Us</a></li>
                         </ul>
