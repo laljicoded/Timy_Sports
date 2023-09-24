@@ -6537,3 +6537,24 @@ header .main-nav ul li .bi {
 .p-relative{
   position: relative;
 }
+.solution-card{
+  display: block;
+  border-radius: 25px;
+  border: 5px solid white;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.solution-card:hover{
+  border: 5px solid var(--theme-color1);
+  box-shadow: 5px 5px 20px grey;
+}
+.solution-card .solution-card-btn{
+  display: none;
+  padding: 10px 60px;
+  font-size: 25px;
+  transition: 0.5s;
+}
+.solution-card:hover .solution-card-btn{
+  display: block;
+    box-shadow: 5px 5px 20px grey;
+}

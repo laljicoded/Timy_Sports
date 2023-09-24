@@ -5,41 +5,33 @@
 
 <body>
     <?php include('@/layout/navigation2.php'); ?>
-    <?php $PageName = "Solutions";
+    <?php $PageName = "Technology Partners";
     $PageImage = "";
     include('@/layout/breadcrumb.php'); ?>
-    <!-- <div class="our-team sec-mar">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="single-person">
-                        <div class="person-img">
-                            <img src="assets/img/team/team-1.jpg" alt>
-                            <div class="person-inner p-2 text-center rounded-0">
-                                <a href='<?php echo $BasePath . "contact.php"; ?>' class="text-white"><i class="bi bi-telephone me-2"></i>Contact Now</a>
-                            </div>
-                        </div>
-                        <div class="inner-cnt">
-                            <h4>William James</h4>
-                            <span>Chairman, GLC</span>
-                        </div>
+    <div class="container py-5">
+        <h3 class="fw-semibold">
+            Technology Partners
+        </h3>
+        <div class="row g-3">
+            <div class="col-12 col-lg-6">
+                <a class="solution-card p-relative h-100" href="https://www.raceresult.com/v12/en/home/" target="_blank">
+                    <img src="assets/img/raceresult.jpg" class="w-100 h-100" alt="" style="object-fit:cover;">
+                    <div class="d-flex align-items-center justify-content-center h-100 w-100" style="position: absolute;top:0;left:0;">
+                        <button type="button" class="solution-card-btn btn btn-danger m-5">
+                            Race Result
+                        </button>
                     </div>
-                </div>
+                </a>
             </div>
-        </div>
-    </div> -->
-
-
-    <div class="container-fluid " style="margin-top :100px; margin-bottom:200px; margin-left:20px; margin-right:20px">
-        <div class="row">
-            <!-- <div class="col-6 lalji" style="background-image: url(assets/img/algetiming.jfif); background-color: #cccccc; height: 400px;width:600px; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative;margin-right:20px;margin-left:80px;"></div>
-            <div class="col-6 ritikesh" style="background-image: url( assets/img/raceresult.jpg); background-color: #cccccc; height: 400px;width:600px; ;background-position: center; background-repeat: no-repeat; background-size: cover; position: relative;margin-left:20px; margin-right:30px;"> </div> -->
-
-            <div class="col-6"><img src="assets/img/raceresult.jpg" alt="" style="size:covered; border-radius:30px;">
-                <p style="float: right;"><a href="https://www.raceresult.com/en/home/index.php" target="_blank"><button type="button" class="btn btn-danger m-5">Race Result</button></a></p>
-            </div>
-            <div class="col-6"><img src="assets/img/algetiming.jfif" alt="" style="size:covered; height:400px;width:800px;border-radius:30px;">
-                <p style="float: right; "><a href="https://alge-timing.com/" target="_blank"><button type="button" class="btn btn-warning m-5">Alge Timing</button></a></p>
+            <div class="col-12 col-lg-6">
+                <a class="solution-card p-relative h-100" href="https://alge-timing.com/" target="_blank">
+                    <img src="assets/img/algetiming.jfif" class="w-100 h-100" alt="" style="object-fit:cover;">
+                    <div class="d-flex align-items-center justify-content-center h-100 w-100" style="position: absolute;top:0;left:0;">
+                        <button type="button" class="solution-card-btn btn btn-warning m-5">
+                            Alge Timing
+                        </button>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
