@@ -100,7 +100,14 @@
 
     <!-- contact Section  -->
     <div class="contact" style="position: relative;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7010.438161887548!2d77.243127!3d28.533134!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce1073aed6673%3A0x434749c3d8877613!2sAdventures%20Sports%20Systems%20and%20Timing%20Pvt.Ltd.!5e0!3m2!1sen!2sin!4v1695324236038!5m2!1sen!2sin" class="w-100" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="row g-0" style="box-shadow:inset 0 0 0 2000px grey">
+            <div class="col-12 col-lg-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7010.438161887548!2d77.243127!3d28.533134!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce1073aed6673%3A0x434749c3d8877613!2sAdventures%20Sports%20Systems%20and%20Timing%20Pvt.Ltd.!5e0!3m2!1sen!2sin!4v1695324236038!5m2!1sen!2sin" class="w-100" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-12 col-lg-8">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7010.438161887548!2d77.243127!3d28.533134!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce1073aed6673%3A0x434749c3d8877613!2sAdventures%20Sports%20Systems%20and%20Timing%20Pvt.Ltd.!5e0!3m2!1sen!2sin!4v1695324236038!5m2!1sen!2sin" class="w-100" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
         <div class="container" style="position: absolute;width:100%;top:0;left:0">
             <div class="row row-cols-2">
                 <div class="col">
