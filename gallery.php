@@ -2,7 +2,7 @@
 <html lang="en">
 <?php include('@/layout/head.php') ?>
 <body>
-    <?php include('@/layout/navigation.php') ?>
+    <?php include('@/layout/navigation2.php') ?>
     <?php $PageName="Gallery"; $PageImage=""; include('@/layout/breadcrumb.php');?>
     <div class="gallery-area sec-mar">
         <div class="container">

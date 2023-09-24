@@ -4,7 +4,7 @@
 <?php include('@/layout/head.php') ?>
 
 <body>
-    <?php include('@/layout/navigation.php'); ?>
+    <?php include('@/layout/navigation2.php'); ?>
     <?php $PageName="Solutions"; $PageImage=""; include('@/layout/breadcrumb.php');?>
     <div class="our-team sec-mar">
         <div class="container">

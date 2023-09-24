@@ -1,5 +1,5 @@
 <?php 
-    $BasePath= "https://exambharo.com/";
+    $BasePath= "http://localhost/timysports";
     $pageurl = $_SERVER['REQUEST_URI'];
     $pageurlArr = explode("/", $pageurl);
 

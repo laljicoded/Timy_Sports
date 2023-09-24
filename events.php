@@ -3,7 +3,7 @@
 <?php include('@/layout/head.php') ?>
 
 <body>
-    <?php include('@/layout/navigation.php'); ?>
+    <?php include('@/layout/navigation2.php'); ?>
     <?php $PageName="Events"; $PageImage=""; include('@/layout/breadcrumb.php');?>
 
     <!-- Events Grid  -->

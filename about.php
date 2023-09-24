@@ -3,7 +3,7 @@
 <?php include('@/layout/head.php') ?>
 
 <body>
-    <?php include('@/layout/navigation.php') ?>
+    <?php include('@/layout/navigation2.php') ?>
     <?php $PageName="About Us"; $PageImage="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png"; include('@/layout/breadcrumb.php');?>
     <?php
     include('@/home/about-section.php');
