@@ -35,11 +35,11 @@
             <!-- <div class="col-6 lalji" style="background-image: url(assets/img/algetiming.jfif); background-color: #cccccc; height: 400px;width:600px; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative;margin-right:20px;margin-left:80px;"></div>
             <div class="col-6 ritikesh" style="background-image: url( assets/img/raceresult.jpg); background-color: #cccccc; height: 400px;width:600px; ;background-position: center; background-repeat: no-repeat; background-size: cover; position: relative;margin-left:20px; margin-right:30px;"> </div> -->
 
-            <div class="col-6"><img src="assets/img/raceresult.jpg" alt="" style="size:covered;">
-                <p style="float: right;"><button type="button" class="btn btn-danger">Race Result</button></p>
+            <div class="col-6"><img src="assets/img/raceresult.jpg" alt="" style="size:covered; border-radius:30px;">
+                <p style="float: right;"><a href="https://www.raceresult.com/en/home/index.php" target="_blank"><button type="button" class="btn btn-danger m-5">Race Result</button></a></p>
             </div>
-            <div class="col-6"><img src="assets/img/algetiming.jfif" alt="" style="size:covered; height:400px;width:800px;">
-                <p style="float: right; "><button type="button" class="btn btn-warning">Alge Timing</button></p>
+            <div class="col-6"><img src="assets/img/algetiming.jfif" alt="" style="size:covered; height:400px;width:800px;border-radius:30px;">
+                <p style="float: right; "><a href="https://alge-timing.com/" target="_blank"><button type="button" class="btn btn-warning m-5">Alge Timing</button></a></p>
             </div>
         </div>
     </div>
