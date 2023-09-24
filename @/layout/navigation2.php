@@ -59,7 +59,7 @@
                                     </button>
                                     <ul class="dropdown-menu " style="background-color:#242424; color:white;">
                                         <li><a class="dropdown-item" href="<?php echo $BasePath . "solutions.php"; ?>">ALGE TIMING</a></li>
-                                        <li><a class="dropdown-item" href="<?php echo $BasePath . "events.php"; ?>">RACE RESULT</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo $BasePath . "solutions.php"; ?>">RACE RESULT</a></li>
                                     </ul>
                                 </div>
 
