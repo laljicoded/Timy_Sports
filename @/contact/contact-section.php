@@ -12,8 +12,11 @@
                               <i><img src="assets/img/icons/location.png" alt /></i>
                           </div>
                           <div class="info-cnt">
-                              <h6>Location</h6>
-                              <p>Digital Agency Network 20 Eastbourne Terrace,London</p>
+                              <!-- <h6>Location</h6> -->
+                              <h6 style="font-size:20px;">India</h6>
+                              <p style="font-size:15px;">M-56 First Floor, M-block Market, Greater Kailash II, New Delhi,Delhi 110048 (India)</p><br>
+                              <h6 style="font-size:20px;">United Kingdom</h6>
+                              <p style="font-size:15px;">Ved Court Alexandra Road, Hounslow United Kingdom TW3 1LS, United Kingdom Sic Codes: 93199</p>
                           </div>
                       </div>
                       <div class="single-information">
@@ -24,9 +27,9 @@
                               <i><img src="assets/img/icons/mobile.png" alt /></i>
                           </div>
                           <div class="info-cnt">
-                              <h6>Phone</h6>
-                              <a href="tel:12025550140">+1-202-555-0140</a>
-                              <a href="tel:12025550150">+1-202-555-0150</a>
+                              <h6 style="font-size:20px;">Phone</h6>
+                              <a href="tel:9582940019" style="font-size:15px;">+91 9582940019</a>
+                              <a href="tel:7823586668" style="font-size:15px;">+44 7823586668</a>
                           </div>
                       </div>
                       <div class="single-information">
@@ -37,9 +40,9 @@
                               <i><img src="assets/img/icons/envelope.png" alt /></i>
                           </div>
                           <div class="info-cnt">
-                              <h6>Email</h6>
-                              <a href="https://demo.egenslab.com/cdn-cgi/l/email-protection#d9b0b7bfb699beb4b8b0b5f7bab6b4"><span class="__cf_email__" data-cfemail="e68f888089a6818b878f8ac885898b">[email&#160;protected]</span></a>
-                              <a href="https://demo.egenslab.com/cdn-cgi/l/email-protection#731a1d151c33000603031c01075d101c1e"><span class="__cf_email__" data-cfemail="dab3b4bcb59aa9afaaaab5a8aef4b9b5b7">[email&#160;protected]</span></a>
+                              <h6 style="font-size:20px;">Email</h6>
+                              <a href="mailto:js@timysports.com"><span class="__cf_email__" data-cfemail="e68f888089a6818b878f8ac885898b" style="font-size:15px;">js@timysports.com</span></a>
+                              <!-- <a href="https://demo.egenslab.com/cdn-cgi/l/email-protection#731a1d151c33000603031c01075d101c1e"><span class="__cf_email__" data-cfemail="dab3b4bcb59aa9afaaaab5a8aef4b9b5b7">[email&#160;protected]</span></a> -->
                           </div>
                       </div>
                   </div>
