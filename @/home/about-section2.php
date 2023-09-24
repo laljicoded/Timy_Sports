@@ -97,7 +97,6 @@
             </div>
         </div>
     </div>
-
     <!-- contact Section  -->
     <div class="contact" style="position: relative;">
         <div class="row g-0" style="box-shadow:inset 0 0 0 2000px grey">
