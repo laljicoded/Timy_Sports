@@ -1,4 +1,4 @@
-    <div class="breadcrumb" style="<?php echo $PageImage ? 'background-image:url(' . $PageImage . ')' : ''; ?>">
+    <div class="breadcrumb" style="overflow:hidden;<?php echo $PageImage ? 'background-image:url(' . $PageImage . ')' : ''; ?>">
         <div class="container">
             <div class="row">
                 <div class="col-12">
