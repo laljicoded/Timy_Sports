@@ -501,12 +501,12 @@ input:focus {
   flex-direction: column;
   justify-content: end;
   padding-bottom: 50px;
-  height: 300px;
+  height: 298px;
   text-align: center;
 }
 @media (max-width: 767px) {
   .breadcrumb .breadcrumb-wrapper {
-    height: 250px;
+    height: 247px;
   }
 }
 .breadcrumb .breadcrumb-wrapper .breadcrumb-inner h1 {

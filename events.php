@@ -9,6 +9,10 @@
     <!-- Events Grid  -->
     <div class="latest-blog grid sec-mar">
         <div class="container">
+            <span class="text-warning">
+                EVENTS
+            </span>
+            <h2 class="fw-semibold">Just play, Have fun. Enjoy the game</h2>
             <div class="row g-4 mb-4">
                 <?php  
                   $Events= $DB->query('SELECT * FROM events;');
@@ -26,37 +30,17 @@
                             </div>
                             <div class="p-3">
                                 <!--<span><?php //echo $event_date?></span>-->
-                                <h3><?php echo $event_name?></h3>
+                                <div class="d-flex flex-wrap align-items-center justify-content-between">
+                                    <h3 class="mb-2 fw-semibold mb-0"><?php echo $event_name?></h3>
+                                    <button class="mb-2 rounded-pill btn btn-warning">
+                                        View More
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <!-- End Single Event Card -->
-                         
-                         
-                             <div class="single-post bg-opacity-0">
-                            <div class="post-thumbnail ">
-                                <img src="<?php echo $event_image;?>" alt="<?php echo $event_name?>" >
-                            </div>
-                            <div class="p-3">
-                                <!--<span><?php //echo $event_date?></span>-->
-                                <h3><?php echo $event_name?></h3>
-                            </div>
-                        </div>
-                         
-                         
-                        
-                        
                     </div>
                 <?php } ?>
             </div>
-            <!--<div class="pagaination">
-                <ul class="paginate">
-                    <li><a href="#"><i class="fas fa-angle-double-left"></i></a></li>
-                    <li class="active"><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#"><i class="fas fa-angle-double-right"></i></a></li>
-                </ul>
-            </div>-->
         </div>
     </div>
     <?php include('@/layout/footer2.php');  ?>
